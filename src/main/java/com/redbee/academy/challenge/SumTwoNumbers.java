@@ -12,6 +12,13 @@ public class SumTwoNumbers {
    */
   public static Integer sum(Integer a, Integer b) {
     //TODO: Implement me
-    return null;
+	  if (a!=null && b!=null) {
+		  return a + b;
+	  }
+	  
+	  if(a==null) {
+		  return b;
+	  } else
+    return a;
   }
 }
